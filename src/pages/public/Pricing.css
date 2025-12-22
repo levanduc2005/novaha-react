@@ -1,0 +1,454 @@
+/* Pricing.jsx Styles */
+
+/* Hero Section */
+.pricing-hero {
+  margin-top: 28px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.pricing-hero-text {
+  flex: 1;
+}
+
+.pricing-hero-image {
+  width: 45%;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+/* Special Policy Section */
+.pricing-policy-section {
+  margin-top: 48px;
+}
+
+/* Pricing Cards Section */
+.pricing-cards-section {
+  margin-top: 48px;
+}
+
+.pricing-cards-title {
+  margin-bottom: 12px;
+}
+
+.pricing-card {
+  padding: 24px;
+}
+
+.pricing-card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.pricing-card-text {
+  margin-bottom: 12px;
+}
+
+.pricing-card-price {
+  margin-top: 10px;
+}
+
+.pricing-card-button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Digital Transformation Section */
+.pricing-transform-section {
+  margin-top: 48px;
+}
+
+.pricing-transform-content {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.pricing-transform-image {
+  width: 42%;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.pricing-transform-text {
+  flex: 1;
+}
+
+.pricing-transform-price {
+  margin-top: 10px;
+}
+
+/* Ecommerce Section */
+.pricing-ecommerce-section {
+  margin-top: 48px;
+}
+
+.pricing-ecommerce-title {
+  margin-bottom: 20px;
+}
+
+.pricing-ecommerce-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.pricing-ecommerce-card {
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pricing-ecommerce-card-basic {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+.pricing-ecommerce-card-standard {
+  background: linear-gradient(135deg, #f6f3ff, #ece9ff);
+}
+
+.pricing-ecommerce-card-pro {
+  background: linear-gradient(135deg, #fff5f5, #ffe8e8);
+}
+
+.pricing-ecommerce-card-title {
+  margin-bottom: 8px;
+}
+
+.pricing-ecommerce-card-description {
+  /* small class applies here */
+}
+
+.pricing-ecommerce-card-list {
+  margin: 12px 0;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.pricing-ecommerce-card-price {
+  margin-top: 12px;
+}
+
+/* Free Package Section */
+.pricing-free-section {
+  margin-top: 48px;
+}
+
+.pricing-free-title {
+  margin-bottom: 12px;
+}
+
+.pricing-free-list {
+  margin-top: 8px;
+}
+
+/* Comparison Table */
+.pricing-comparison-section {
+  margin-top: 48px;
+}
+
+.pricing-table-container {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.pricing-table thead {
+  background: var(--card);
+  text-align: left;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 10px;
+}
+
+/* Final CTA */
+.pricing-final-cta {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.pricing-final-cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Tablet Styles (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .pricing-hero {
+    gap: 32px;
+  }
+
+  .pricing-hero-image {
+    width: 55%;
+  }
+
+  .pricing-card {
+    padding: 20px;
+  }
+
+  .pricing-policy-section {
+    margin-top: 36px;
+  }
+
+  .pricing-cards-section {
+    margin-top: 36px;
+  }
+
+  .pricing-ecommerce-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .pricing-ecommerce-card {
+    padding: 22px;
+  }
+
+  .pricing-transform-section {
+    margin-top: 36px;
+  }
+
+  .pricing-transform-content {
+    gap: 22px;
+  }
+
+  .pricing-transform-image {
+    width: 50%;
+  }
+
+  .pricing-ecommerce-section {
+    margin-top: 36px;
+  }
+
+  .pricing-free-section {
+    margin-top: 36px;
+  }
+
+  .pricing-comparison-section {
+    margin-top: 36px;
+  }
+
+  .pricing-table {
+    font-size: 13px;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 8px;
+  }
+
+  .pricing-final-cta {
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media (max-width: 768px) {
+  .pricing-hero {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .pricing-hero-text {
+    width: 100%;
+  }
+
+  .pricing-hero-image {
+    width: 100%;
+  }
+
+  .pricing-card {
+    padding: 16px;
+  }
+
+  .pricing-policy-section {
+    margin-top: 24px;
+  }
+
+  .pricing-cards-section {
+    margin-top: 24px;
+  }
+
+  .pricing-ecommerce-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .pricing-ecommerce-card {
+    padding: 16px;
+  }
+
+  .pricing-transform-section {
+    margin-top: 24px;
+  }
+
+  .pricing-transform-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pricing-transform-image {
+    width: 100%;
+  }
+
+  .pricing-transform-text {
+    width: 100%;
+  }
+
+  .pricing-ecommerce-section {
+    margin-top: 24px;
+  }
+
+  .pricing-free-section {
+    margin-top: 24px;
+  }
+
+  .pricing-comparison-section {
+    margin-top: 24px;
+  }
+
+  .pricing-table {
+    font-size: 12px;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 6px;
+  }
+
+  .pricing-final-cta {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .pricing-final-cta-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .pricing-final-cta-content button {
+    width: 100%;
+    min-height: 44px;
+  }
+}
+
+/* Extra-Small Mobile Styles (max-width: 480px) */
+@media (max-width: 480px) {
+  .pricing-hero {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .pricing-hero-text {
+    width: 100%;
+  }
+
+  .pricing-hero-image {
+    width: 100%;
+  }
+
+  .pricing-card {
+    padding: 12px;
+  }
+
+  .pricing-policy-section {
+    margin-top: 16px;
+  }
+
+  .pricing-cards-section {
+    margin-top: 16px;
+  }
+
+  .pricing-ecommerce-cards {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .pricing-ecommerce-card {
+    padding: 12px;
+  }
+
+  .pricing-ecommerce-card-title {
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .pricing-ecommerce-card-list {
+    margin: 8px 0;
+    font-size: 12px;
+  }
+
+  .pricing-ecommerce-card-price {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  .pricing-transform-section {
+    margin-top: 16px;
+  }
+
+  .pricing-transform-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .pricing-transform-image {
+    width: 100%;
+  }
+
+  .pricing-transform-text {
+    width: 100%;
+  }
+
+  .pricing-ecommerce-section {
+    margin-top: 16px;
+  }
+
+  .pricing-free-section {
+    margin-top: 16px;
+  }
+
+  .pricing-comparison-section {
+    margin-top: 16px;
+  }
+
+  .pricing-table {
+    font-size: 11px;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 4px;
+  }
+
+  .pricing-final-cta {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .pricing-final-cta-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pricing-final-cta-content button {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}

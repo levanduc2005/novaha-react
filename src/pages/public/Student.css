@@ -1,0 +1,310 @@
+.student-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 40px 0;
+}
+
+.student-container .form-group label {
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+.student-container textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.student-header {
+  margin-bottom: 32px;
+}
+
+.student-back {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-2);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  transition: color 0.3s ease;
+}
+
+.student-back:hover {
+  color: var(--accent-1);
+}
+
+.student-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.student-title {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.student-subtitle {
+  text-align: center;
+  color: var(--muted);
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text);
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(0, 128, 184, 0.1);
+}
+
+.form-group input:disabled,
+.form-group textarea:disabled {
+  background: var(--muted);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-submit {
+  grid-column: 1 / -1;
+  padding: 12px 24px;
+  background: var(--accent-2);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.btn-submit:hover:not(:disabled) {
+  background: var(--accent-1);
+}
+
+.btn-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.msg-box {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: var(--radius);
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.msg-success {
+  color: #15803d;
+  background: #dcfce7;
+  border: 1px solid #86efac;
+}
+
+.msg-error {
+  color: #b91c1c;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .student-wrapper {
+    max-width: 600px;
+    padding: 24px;
+  }
+
+  .student-title {
+    font-size: 24px;
+  }
+
+  .student-subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .contact-grid {
+    gap: 12px;
+  }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 768px) {
+  .student-header {
+    margin-bottom: 16px;
+  }
+
+  .student-back {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .student-wrapper {
+    max-width: 100%;
+    margin: 0;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .student-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .student-subtitle {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .form-group label {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .form-group textarea {
+    min-height: 80px;
+  }
+
+  .btn-submit {
+    padding: 10px 16px;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  .msg-box {
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+/* Extra-Small Mobile Styles (max-width: 480px) */
+@media (max-width: 480px) {
+  .student-header {
+    margin-bottom: 12px;
+  }
+
+  .student-back {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+
+  .student-wrapper {
+    max-width: 100%;
+    margin: 0;
+    padding: 12px;
+    border-radius: 6px;
+  }
+
+  .student-title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .student-subtitle {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .form-group label {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .form-group input:focus,
+  .form-group textarea:focus {
+    box-shadow: 0 0 0 2px rgba(0, 128, 184, 0.08);
+  }
+
+  .form-group textarea {
+    min-height: 70px;
+  }
+
+  .btn-submit {
+    grid-column: 1 / -1;
+    padding: 10px 12px;
+    font-size: 12px;
+    margin-top: 6px;
+    min-height: 44px;
+  }
+
+  .msg-box {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 11px;
+    border-radius: 4px;
+  }
+}

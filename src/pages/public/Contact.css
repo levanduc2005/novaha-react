@@ -1,0 +1,309 @@
+/* Contact.jsx Styles */
+
+/* Hero Section */
+.contact-hero {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-hero-text {
+  flex: 1;
+}
+
+.contact-hero-image {
+  width: 45%;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+/* Form and Info Section */
+.contact-content {
+  margin-top: 48px;
+  display: flex;
+  gap: 40px;
+}
+
+.contact-form {
+  flex: 1;
+  padding: 24px;
+}
+
+.contact-form-wrapper {
+  margin-top: 20px;
+}
+
+.contact-form-group-item {
+  /* spacing handled by form-group class */
+}
+
+.contact-form-message {
+  margin-top: 12px;
+}
+
+.contact-form-message-success {
+  color: green;
+}
+
+.contact-form-message-error {
+  color: red;
+}
+
+.contact-info-column {
+  flex: 1;
+}
+
+.contact-info-card {
+  padding: 24px;
+}
+
+.contact-info-text {
+  margin-top: 6px;
+}
+
+.contact-support-card {
+  margin-top: 20px;
+  padding: 24px;
+}
+
+.contact-support-list {
+  margin-top: 6px;
+}
+
+/* Map Section */
+.contact-map-section {
+  margin-top: 48px;
+}
+
+.contact-map-title {
+  margin-bottom: 12px;
+}
+
+.contact-map-container {
+  padding: 0;
+}
+
+.contact-map-iframe {
+  border: 0;
+  border-radius: 12px;
+}
+
+/* CTA Section */
+.contact-cta-section {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.contact-cta-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-cta-text {
+  /* empty, div for layout */
+}
+
+.contact-cta-button {
+  /* btn-primary class applies here */
+}
+/* Tablet Styles (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .contact-hero {
+    gap: 32px;
+  }
+
+  .contact-hero-image {
+    width: 55%;
+  }
+
+  .contact-content {
+    gap: 32px;
+    margin-top: 36px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-info-card {
+    padding: 20px;
+  }
+
+  .contact-support-card {
+    margin-top: 16px;
+    padding: 20px;
+  }
+
+  .contact-map-section {
+    margin-top: 36px;
+  }
+
+  .contact-cta-section {
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media (max-width: 768px) {
+  .contact-hero {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contact-hero-text {
+    width: 100%;
+  }
+
+  .contact-hero-image {
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .contact-form {
+    flex: 1;
+    padding: 16px;
+  }
+
+  .contact-info-column {
+    flex: 1;
+  }
+
+  .contact-info-card {
+    padding: 16px;
+  }
+
+  .contact-support-card {
+    margin-top: 12px;
+    padding: 16px;
+  }
+
+  .contact-map-section {
+    margin-top: 24px;
+  }
+
+  .contact-map-title {
+    margin-bottom: 12px;
+  }
+
+  .contact-cta-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .contact-cta-card {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contact-cta-button {
+    width: 100%;
+    min-height: 44px;
+  }
+}
+
+/* Extra-Small Mobile Styles (max-width: 480px) */
+@media (max-width: 480px) {
+  .contact-hero {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .contact-hero-text {
+    width: 100%;
+  }
+
+  .contact-hero-image {
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .contact-form {
+    flex: 1;
+    padding: 12px;
+  }
+
+  .contact-form-wrapper {
+    margin-top: 12px;
+  }
+
+  .contact-form-message {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  .contact-info-column {
+    flex: 1;
+  }
+
+  .contact-info-card {
+    padding: 12px;
+  }
+
+  .contact-info-card h4 {
+    font-size: 14px;
+  }
+
+  .contact-info-text {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .contact-support-card {
+    margin-top: 8px;
+    padding: 12px;
+  }
+
+  .contact-support-card h4 {
+    font-size: 14px;
+  }
+
+  .contact-support-list {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .contact-map-section {
+    margin-top: 16px;
+  }
+
+  .contact-map-title {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .contact-map-iframe {
+    border-radius: 8px;
+    height: 250px;
+  }
+
+  .contact-cta-section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .contact-cta-card {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-cta-button {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}

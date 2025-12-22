@@ -1,0 +1,638 @@
+/* About.jsx Styles */
+
+/* Hero Section */
+.about-hero {
+  margin-top: 40px;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.about-hero-text {
+  flex: 1;
+}
+
+.about-hero-image {
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+/* Vision Mission Values */
+.about-vmv-section {
+  margin-top: 60px;
+}
+
+.about-vmv-title {
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.about-vmv-cards {
+  gap: 32px;
+}
+
+.about-vmv-card {
+  padding: 32px;
+  border-radius: 18px;
+}
+
+.about-vmv-icon {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.about-vmv-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Business Model Section */
+.about-model-section {
+  margin-top: 48px;
+}
+
+.about-model-title {
+  margin-bottom: 12px;
+}
+
+.about-model-content {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.about-model-image {
+  width: 42%;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.about-model-text {
+  flex: 1;
+}
+
+.about-model-list {
+  /* small class applies */
+}
+
+.about-model-description {
+  margin-top: 10px;
+}
+
+/* Why NovaHA Section */
+.about-why-section {
+  margin-top: 48px;
+}
+
+.about-why-title {
+  margin-bottom: 12px;
+}
+
+.about-why-content {
+  /* card class applies */
+}
+
+.about-why-list {
+  margin-top: 8px;
+}
+
+/* Roadmap Section */
+.about-roadmap-section {
+  margin-top: 48px;
+}
+
+.about-roadmap-title {
+  margin-bottom: 12px;
+}
+
+/* Image Gallery */
+.about-gallery-section {
+  margin-top: 48px;
+}
+
+.about-gallery-title {
+  margin-bottom: 12px;
+}
+
+.about-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.about-gallery-image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 280px;
+  box-shadow: var(--shadow);
+}
+
+.about-gallery-image-1 {
+  background-image: url(https://cdn-images.vtv.vn/zoom/700_438/2020/10/29/jica-website-2-16039542852921060030474.jpg);
+}
+
+.about-gallery-image-2 {
+  background-image: url(/baocao.jpg);
+}
+
+.about-gallery-image-3 {
+  background-image: url(/chungnhan.png);
+}
+
+/* Partners Section */
+.about-partners-section {
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.about-partners-title {
+  margin-bottom: 8px;
+}
+
+.about-partners-description {
+  max-width: 720px;
+  margin-bottom: 32px;
+  color: var(--muted);
+}
+
+.about-partners-subsection {
+  margin-bottom: 32px;
+}
+
+.about-partners-subtitle {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.about-partners-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.about-partner-card-image {
+  background-image: /* set per partner */ ;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.about-partner-card-logo-ece {
+  background-image: url(/ece.png);
+}
+
+.about-partner-card-logo-ctw {
+  background-image: url(/ctw.png);
+}
+
+.about-partner-card-logo-hubbiz {
+  background-image: url(/hubbiz.png);
+}
+
+.about-partner-card-logo-shtp {
+  background-image: url(/shtp.jpg);
+}
+
+.about-partner-card-logo-sihub {
+  background-image: url(/sihub.png);
+}
+
+.about-partner-card-logo-fpt {
+  background-image: url(/fpt.png);
+}
+
+.about-partner-card-title {
+  margin-bottom: 8px;
+}
+
+.about-partner-link {
+  margin-top: 24px;
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: var(--accent-2);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.about-partner-link:hover {
+  background-color: #004d80;
+}
+
+/* CTA Section */
+.about-cta-section {
+  margin-top: 48px;
+  margin-bottom: 40px;
+  padding: 32px;
+  background: var(--card);
+  border-radius: var(--radius);
+}
+
+.about-cta-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: var(--accent-2);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.about-partner-link:hover {
+  background-color: #004d80;
+}
+
+/* CTA Section */
+.about-cta-section {
+  margin-top: 48px;
+  margin-bottom: 40px;
+  padding: 32px;
+  background: var(--card);
+  border-radius: var(--radius);
+}
+
+.about-cta-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: var(--accent-2);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.about-cta-button:hover {
+  background-color: #004d80;
+}
+/* Tablet Styles (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .about-hero {
+    gap: 36px;
+  }
+
+  .about-hero-image {
+    width: 50%;
+  }
+
+  .about-vmv-section {
+    margin-top: 48px;
+  }
+
+  .about-vmv-title {
+    margin-bottom: 18px;
+    font-size: 28px;
+  }
+
+  .about-vmv-cards {
+    gap: 24px;
+  }
+
+  .about-vmv-card {
+    padding: 26px;
+  }
+
+  .about-vmv-icon {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .about-vmv-card-title {
+    font-size: 20px;
+  }
+
+  .about-model-section {
+    margin-top: 36px;
+  }
+
+  .about-model-content {
+    gap: 22px;
+  }
+
+  .about-model-image {
+    width: 50%;
+  }
+
+  .about-why-section {
+    margin-top: 36px;
+  }
+
+  .about-roadmap-section {
+    margin-top: 36px;
+  }
+
+  .about-gallery-section {
+    margin-top: 36px;
+  }
+
+  .about-gallery-container {
+    gap: 12px;
+  }
+
+  .about-gallery-image {
+    height: 240px;
+  }
+
+  .about-partners-section {
+    margin-top: 36px;
+    margin-bottom: 32px;
+  }
+
+  .about-partners-description {
+    margin-bottom: 24px;
+  }
+
+  .about-partners-subsection {
+    margin-bottom: 24px;
+  }
+
+  .about-partners-cards {
+    gap: 18px;
+  }
+
+  .about-cta-section {
+    margin-top: 36px;
+    margin-bottom: 32px;
+    padding: 26px;
+  }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media (max-width: 768px) {
+  .about-hero {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about-hero-text {
+    width: 100%;
+  }
+
+  .about-hero-image {
+    width: 100%;
+  }
+
+  .about-vmv-section {
+    margin-top: 24px;
+  }
+
+  .about-vmv-title {
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+
+  .about-vmv-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .about-vmv-card {
+    padding: 16px;
+  }
+
+  .about-vmv-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about-vmv-card-title {
+    font-size: 18px;
+  }
+
+  .about-model-section {
+    margin-top: 24px;
+  }
+
+  .about-model-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .about-model-image {
+    width: 100%;
+  }
+
+  .about-model-text {
+    width: 100%;
+  }
+
+  .about-why-section {
+    margin-top: 24px;
+  }
+
+  .about-roadmap-section {
+    margin-top: 24px;
+  }
+
+  .about-gallery-section {
+    margin-top: 24px;
+  }
+
+  .about-gallery-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .about-gallery-image {
+    height: 200px;
+  }
+
+  .about-partners-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .about-partners-description {
+    margin-bottom: 16px;
+  }
+
+  .about-partners-subsection {
+    margin-bottom: 16px;
+  }
+
+  .about-partners-subtitle {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .about-partners-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .about-partner-card-image {
+    height: 80px;
+    margin-bottom: 12px;
+  }
+
+  .about-partner-link {
+    width: 100%;
+    display: block;
+    text-align: center;
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+
+  .about-cta-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+  }
+
+  .about-cta-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+}
+
+/* Extra-Small Mobile Styles (max-width: 480px) */
+@media (max-width: 480px) {
+  .about-hero {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .about-hero-text {
+    width: 100%;
+  }
+
+  .about-hero-image {
+    width: 100%;
+  }
+
+  .about-vmv-section {
+    margin-top: 16px;
+  }
+
+  .about-vmv-title {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+
+  .about-vmv-cards {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .about-vmv-card {
+    padding: 12px;
+  }
+
+  .about-vmv-icon {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .about-vmv-card-title {
+    font-size: 14px;
+  }
+
+  .about-model-section {
+    margin-top: 16px;
+  }
+
+  .about-model-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .about-model-image {
+    width: 100%;
+  }
+
+  .about-model-text {
+    width: 100%;
+  }
+
+  .about-why-section {
+    margin-top: 16px;
+  }
+
+  .about-roadmap-section {
+    margin-top: 16px;
+  }
+
+  .about-gallery-section {
+    margin-top: 16px;
+  }
+
+  .about-gallery-container {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .about-gallery-image {
+    height: 160px;
+  }
+
+  .about-partners-section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .about-partners-description {
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .about-partners-subsection {
+    margin-bottom: 12px;
+  }
+
+  .about-partners-subtitle {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .about-partners-cards {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .about-partner-card-image {
+    height: 60px;
+    margin-bottom: 8px;
+  }
+
+  .about-partner-link {
+    width: 100%;
+    display: block;
+    text-align: center;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .about-cta-section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 12px;
+  }
+
+  .about-cta-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}

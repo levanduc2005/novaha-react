@@ -1,0 +1,66 @@
+/* Global CSS Variables */
+:root {
+  /* Colors */
+  --primary: #0f172a;
+  --secondary: #64748b;
+  --accent-1: #0ea5ff;
+  --accent-2: #0080b8;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --light: #f8fafc;
+  --dark: #1e293b;
+
+  /* Backgrounds & Cards */
+  --bg: #ffffff;
+  --card: #ffffff;
+  --border: rgba(0, 0, 0, 0.06);
+
+  /* Text Colors */
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --muted: #64748b;
+
+  /* Spacing */
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Border Radius */
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 18px;
+
+  /* Shadow */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --primary: #ffffff;
+  --secondary: #cbd5e1;
+  --bg: #0f172a;
+  --card: #1e293b;
+  --border: rgba(255, 255, 255, 0.1);
+  --text: #ffffff;
+  --text-secondary: #cbd5e1;
+  --muted: #94a3b8;
+}
