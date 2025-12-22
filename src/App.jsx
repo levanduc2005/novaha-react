@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import { useScrollToTop } from "./hooks/useScrollToTop"
 import { HomePage } from "./pages/public/HomePage"
 import { AdminLogin } from "./pages/admin/AdminLogin"
 import {
@@ -14,9 +15,15 @@ import Student from "./pages/public/Student"
 import AdminDashboard from "./pages/admin/AdminDashboard"
 import "./App.css"
 
+function ScrollToTop() {
+  useScrollToTop()
+  return null
+}
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<HomePage />} />

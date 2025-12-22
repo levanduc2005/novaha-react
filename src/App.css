@@ -32,6 +32,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  #root {
+    padding: 0;
+  }
+}
+
 .card {
   padding: 2em;
 }

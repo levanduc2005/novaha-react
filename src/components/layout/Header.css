@@ -1,0 +1,283 @@
+/* Header */
+.header {
+  background: var(--card);
+  border-bottom: 1px solid var(--card-border);
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s;
+  flex-shrink: 0;
+}
+
+.brand:hover {
+  opacity: 0.8;
+}
+
+.brand img {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav a:hover {
+  color: var(--accent-2);
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-2);
+  transition: width 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.talenthub-btn {
+  padding: 10px 18px;
+  background: #7c3aed;
+  color: white !important;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s !important;
+}
+
+.talenthub-btn:hover {
+  background: #6d28d9;
+}
+
+.talenthub-btn::after {
+  display: none;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2.5px;
+  background: var(--text);
+  border-radius: 1.5px;
+  transition: all 0.3s ease;
+}
+
+/* Nav Overlay */
+.nav-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 97;
+  cursor: pointer;
+}
+
+/* Tablet - Show hamburger at 900px */
+@media (max-width: 900px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav {
+    position: fixed;
+    top: 72px;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    gap: 0;
+    background: var(--card);
+    padding: 8px 0;
+    width: 100%;
+    height: calc(100vh - 72px);
+    transition: left 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 98;
+    overflow-y: auto;
+    align-items: stretch;
+  }
+
+  .nav.open {
+    left: 0;
+  }
+
+  .nav-overlay {
+    display: block;
+  }
+
+  .nav a {
+    padding: 14px 20px;
+    display: block;
+    border-bottom: 1px solid var(--card-border);
+    font-size: 15px;
+    white-space: normal;
+  }
+
+  .nav a::after {
+    display: none;
+  }
+
+  .nav a:hover::after {
+    display: none;
+  }
+
+  .nav a:hover {
+    background: var(--bg-hover);
+    color: var(--accent-2);
+  }
+
+  .talenthub-btn {
+    background: #7c3aed;
+    border-radius: 8px;
+    margin: 12px 16px;
+    padding: 12px 16px;
+    border-bottom: none;
+  }
+
+  .talenthub-btn:hover {
+    background: #6d28d9;
+  }
+}
+
+/* Mobile - 768px */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 0;
+  }
+
+  .header .container {
+    padding: 0 14px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand img {
+    height: 48px;
+  }
+
+  .brand > div {
+    display: none;
+  }
+
+  .hamburger {
+    padding: 5px;
+  }
+
+  .hamburger span {
+    width: 22px;
+    height: 2.5px;
+  }
+
+  .nav {
+    top: 68px;
+  }
+
+  .nav a {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  .talenthub-btn {
+    margin: 10px 14px;
+    padding: 10px 14px;
+  }
+}
+
+/* Extra Small - 480px */
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 0;
+  }
+
+  .header .container {
+    padding: 0 12px;
+  }
+
+  .brand {
+    gap: 6px;
+  }
+
+  .brand img {
+    height: 44px;
+  }
+
+  .hamburger {
+    padding: 4px;
+  }
+
+  .hamburger span {
+    width: 20px;
+    height: 2px;
+  }
+
+  .nav {
+    top: 64px;
+  }
+
+  .nav a {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .talenthub-btn {
+    margin: 8px 12px;
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
+
