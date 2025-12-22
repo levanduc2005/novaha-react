@@ -34,7 +34,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/tuyendung" element={<Recruitment />} />
+        <Route path="/recruitment" element={<Recruitment />} />
 
         {/* Admin Routes */}
         <Route path="/admin-login" element={<AdminLogin />} />
