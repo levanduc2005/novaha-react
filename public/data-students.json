@@ -1,0 +1,171 @@
+[
+  {
+    "id": "1763809479378",
+    "name": "Nguyễn văn C",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "Đại học Công nghệ thông tin",
+    "skills": [
+      "HTML"
+    ],
+    "bio": "Kỹ sư công nghệ thông tin",
+    "cv": "/uploads/1763809478799-god3s8hp6wb-lich_su_10.pdf",
+    "createdAt": "2025-11-22T11:04:39.378Z"
+  },
+  {
+    "id": "1763788075187",
+    "name": "Nguyễn Văn B",
+    "email": "phanvantien07091978@gmail.com",
+    "phone": "0399148815",
+    "university": "FPT TPHCM",
+    "skills": [
+      "JS"
+    ],
+    "bio": "ANH ",
+    "cv": "/uploads/1763788075178-hey2qu9r0u9-PRO2NguyenVanNamSE201973.pdf",
+    "createdAt": "2025-11-22T05:07:55.187Z"
+  },
+  {
+    "id": "1763713733850",
+    "name": "Nguyễn Văn A",
+    "email": "phanvantien07091978@gmail.com",
+    "phone": "0399148815",
+    "university": "FPT TPHCM",
+    "skills": [
+      "JS"
+    ],
+    "bio": "",
+    "cv": "/uploads/1763713733843-79v0xwx0bg-Link_GG_Drive_Lab_HOD402_Group3.pdf",
+    "createdAt": "2025-11-21T08:28:53.850Z"
+  },
+  {
+    "id": "1763711830313",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "đh quốc gia",
+    "skills": [
+      "css"
+    ],
+    "bio": "",
+    "cv": "/uploads/1763711830308-ad616sfdgc-Báº¢NG_XÃC_NHáº¬N_THAM_GIA_Æ¯Æ_M_Táº_O.pdf",
+    "createdAt": "2025-11-21T07:57:10.313Z"
+  },
+  {
+    "id": "1763699323328",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "đh quốc gia",
+    "skills": [
+      "css"
+    ],
+    "bio": "",
+    "cv": "/uploads/1763699323325-cvlnnxav6v-Link_GG_Drive_Lab_HOD402_Group3.pdf",
+    "createdAt": "2025-11-21T04:28:43.328Z"
+  },
+  {
+    "id": "1763698329400",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "đh quốc gia",
+    "skills": [
+      "css"
+    ],
+    "bio": "",
+    "cv": null,
+    "createdAt": "2025-11-21T04:12:09.400Z"
+  },
+  {
+    "id": "1763558239304",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "đh quốc gia",
+    "skills": [
+      "css"
+    ],
+    "bio": "",
+    "cv": "/uploads/1763558239278-5t1wyvbsg0x-baohgse183044_Test10.pdf",
+    "createdAt": "2025-11-19T13:17:19.304Z"
+  },
+  {
+    "id": "1763557803823",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "đại học sư phạm kỹ thuật tphcm",
+    "skills": [
+      "cntt"
+    ],
+    "bio": "lạdlasdl",
+    "cv": "/uploads/1763557803818-s24feh0gqn-Tutase161452_10%.pdf",
+    "createdAt": "2025-11-19T13:10:03.823Z"
+  },
+  {
+    "id": "1763285988698",
+    "name": "ládk",
+    "email": "phanvantien07091978@gmail.com",
+    "phone": "/;aksjd;á",
+    "university": "văn lang",
+    "skills": [
+      "js"
+    ],
+    "bio": "alsdj;lakd",
+    "cv": "/uploads/1763285988694-326059735-SE204275_LeDucDuy.pdf",
+    "createdAt": "2025-11-16T09:39:48.698Z"
+  },
+  {
+    "id": "1763285963418",
+    "name": "aklsdlaks",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "alksjdl",
+    "skills": [
+      "cssasda"
+    ],
+    "bio": "ádads",
+    "cv": "/uploads/1763285963414-556668147-SE191022-NGOTANCHUONG-PRO2_(1).pdf",
+    "createdAt": "2025-11-16T09:39:23.418Z"
+  },
+  {
+    "id": "1763285935987",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "văn hiến",
+    "skills": [
+      "html"
+    ],
+    "bio": "lasjdlkas;dl",
+    "cv": "/uploads/1763285935982-577288577-Tutase161452_10%.pdf",
+    "createdAt": "2025-11-16T09:38:55.987Z"
+  },
+  {
+    "id": "1763284664059",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "fpt",
+    "skills": [
+      "backend"
+    ],
+    "bio": "laksdlk akjdlkasjd adskj a;lksjd ádkj",
+    "cv": "/uploads/1763284663952-15126953-Há»_SÆ_NÄNG_Lá»°C_-_CÃNG_TY_TNHH_NOVAHA.pdf",
+    "createdAt": "2025-11-16T09:17:44.059Z"
+  },
+  {
+    "id": "1763284664059",
+    "name": "nguyễn hoàng anh",
+    "email": "hoanganh22041996@gmail.com",
+    "phone": "0399148815",
+    "university": "fpt",
+    "skills": [
+      "backend"
+    ],
+    "bio": "laksdlk akjdlkasjd adskj a;lksjd ádkj",
+    "cv": "/uploads/1763284663952-15126953-Há»_SÆ_NÄNG_Lá»°C_-_CÃNG_TY_TNHH_NOVAHA.pdf",
+    "createdAt": "2025-11-16T09:17:44.059Z"
+  }
+]
