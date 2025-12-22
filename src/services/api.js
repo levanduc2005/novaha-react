@@ -32,7 +32,12 @@ api.interceptors.request.use(
 // Mock data cho offline mode
 let mockStudents = []
 let mockAdmins = [
-  { id: 1, username: "admin", password: "admin123", token: "mock-token-12345" },
+  {
+    id: 1,
+    username: "admin",
+    password: "novaha2025",
+    token: "mock-token-12345",
+  },
 ]
 
 // Load mock students từ JSON file
