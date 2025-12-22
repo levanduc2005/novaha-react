@@ -52,17 +52,21 @@ export const Footer = () => {
         <div>
           <h4 className="f-subtitle">Kết nối</h4>
           <div className="social">
-            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Facebook
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           </div>
         </div>
       </div>
 
       {/* Bottom */}
-      <div className="footer-bottom">
-        © 2025 NovaHA • All rights reserved.
-      </div>
+      <div className="footer-bottom">© 2025 NovaHA • All rights reserved.</div>
     </footer>
   )
 }

@@ -65,7 +65,11 @@ export const Header = () => {
             </div>
           </Link>
 
-          <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+          <button
+            className="hamburger"
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
             <span></span>
             <span></span>
             <span></span>
