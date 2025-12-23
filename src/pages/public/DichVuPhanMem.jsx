@@ -1,4 +1,5 @@
 import "./DichVuPhanMem.css"
+import { Link } from "react-router-dom"
 import { Layout } from "../../components/layout/Layout"
 
 function DichVuPhanMem() {
@@ -85,13 +86,6 @@ function DichVuPhanMem() {
     },
   ]
 
-  const scrollToContact = () => {
-    const contactSection = document.getElementById("contact")
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" })
-    }
-  }
-
   return (
     <Layout>
       <div className="dichvu-phanmem-page">
@@ -116,9 +110,9 @@ function DichVuPhanMem() {
             <div className="price-box">
               <div className="price-label">Gói cơ bản</div>
               <h2 className="price-amount">Từ 20.000.000đ</h2>
-              <button onClick={scrollToContact} className="cta-btn">
+              <Link to="/contact" className="cta-btn">
                 Tư vấn ngay
-              </button>
+              </Link>
             </div>
           </div>
 

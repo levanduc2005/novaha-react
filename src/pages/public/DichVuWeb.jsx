@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import { Layout } from "../../components/layout/Layout"
 import "./DichVuWeb.css"
 
@@ -113,13 +114,6 @@ function DichVuWeb() {
     },
   ]
 
-  const scrollToContact = () => {
-    const contactSection = document.getElementById("contact")
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" })
-    }
-  }
-
   return (
     <Layout>
       <div className="dichvu-web-page">
@@ -141,9 +135,9 @@ function DichVuWeb() {
             <div className="hero-price-box">
               <div className="price-label">Gói tiêu chuẩn</div>
               <div className="price-value">Từ 15.000.000đ</div>
-              <button onClick={scrollToContact} className="cta-pulse">
+              <Link to="/contact" className="cta-pulse">
                 Tư vấn ngay
-              </button>
+              </Link>
             </div>
 
             <div className="process-steps">
@@ -272,22 +266,6 @@ function DichVuWeb() {
                 <p className="muted">{faq.answer}</p>
               </div>
             ))}
-          </div>
-        </section>
-
-        {/* CTA SECTION */}
-        <section id="contact" className="cta-section">
-          <div className="cta-content">
-            <h2>Sẵn sàng tạo website chuyên nghiệp?</h2>
-            <p>Liên hệ ngay để được tư vấn miễn phí và báo giá chi tiết</p>
-            <div className="cta-buttons">
-              <a href="/contact" className="cta-primary">
-                Liên hệ tư vấn
-              </a>
-              <a href="/pricing" className="cta-secondary">
-                Xem bảng giá
-              </a>
-            </div>
           </div>
         </section>
       </div>

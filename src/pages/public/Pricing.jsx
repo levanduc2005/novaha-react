@@ -134,6 +134,48 @@ export const Pricing = () => {
         </div>
       </section>
 
+      {/* E-COMMERCE WEBSITE PACKAGES */}
+      <section className="pricing-ecommerce-section">
+        <h2>Dịch vụ xây dựng website hỗ trợ kinh doanh trên sàn thương mại điện tử</h2>
+        <div className="grid-3">
+          <div className="pricing-ecommerce-card">
+            <h3>Gói Cơ Bản</h3>
+            <p className="small">Phù hợp shop nhỏ và người mới bắt đầu.</p>
+            <ul className="small pricing-ecommerce-list">
+              <li>Website landing bán hàng</li>
+              <li>Tối ưu UI/UX cơ bản</li>
+              <li>Tích hợp Chatbot / Zalo OA</li>
+              <li>Cài đặt Pixel tracking</li>
+            </ul>
+            <h3 className="pricing-ecommerce-price">Từ 3.500.000đ</h3>
+          </div>
+
+          <div className="pricing-ecommerce-card">
+            <h3>Gói Chuẩn TMĐT</h3>
+            <p className="small">Bán hàng đa kênh – tối ưu chuyển đổi.</p>
+            <ul className="small pricing-ecommerce-list">
+              <li>Website bán hàng đầy đủ tính năng</li>
+              <li>Đồng bộ sản phẩm với 1 sàn (Shopee/Lazada)</li>
+              <li>SEO cơ bản + tối ưu tốc độ</li>
+              <li>Quản lý tồn kho &amp; giá tự động</li>
+            </ul>
+            <h3 className="pricing-ecommerce-price">Từ 6.500.000đ</h3>
+          </div>
+
+          <div className="pricing-ecommerce-card">
+            <h3>Gói Chuyên Nghiệp</h3>
+            <p className="small">Tối ưu mạnh – phù hợp shop chạy Ads.</p>
+            <ul className="small pricing-ecommerce-list">
+              <li>Đồng bộ 2–3 sàn TMĐT</li>
+              <li>SEO nâng cao + phân tích từ khóa</li>
+              <li>Marketing Automation</li>
+              <li>Dashboard báo cáo chi tiết</li>
+            </ul>
+            <h3 className="pricing-ecommerce-price">từ 12.000.000đ</h3>
+          </div>
+        </div>
+      </section>
+
       {/* FREE PACKAGE */}
       <section className="pricing-free-section">
         <h2 className="pricing-free-title">Gói "Website khởi nghiệp 0 đồng"</h2>
@@ -151,6 +193,63 @@ export const Pricing = () => {
           <p className="small">
             Áp dụng cho startup công nghệ hoặc dự án sinh viên có tiềm năng.
           </p>
+        </div>
+      </section>
+
+      {/* COMPARISON TABLE */}
+      <section className="pricing-comparison-section">
+        <h2>Bảng so sánh nhanh</h2>
+        <div className="card pricing-comparison-table">
+          <div className="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Tính năng</th>
+                  <th>Website</th>
+                  <th>Phần mềm</th>
+                  <th>Startup MVP</th>
+                  <th>Chuyển đổi số</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Thiết kế UI/UX</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>—</td>
+                </tr>
+                <tr>
+                  <td>SEO / tối ưu tốc độ</td>
+                  <td>✔</td>
+                  <td>—</td>
+                  <td>✔</td>
+                  <td>—</td>
+                </tr>
+                <tr>
+                  <td>Tự động hóa</td>
+                  <td>—</td>
+                  <td>✔</td>
+                  <td>—</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>Hỗ trợ AI</td>
+                  <td>—</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>Phân tích quy trình</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td>✔</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
