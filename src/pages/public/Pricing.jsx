@@ -56,7 +56,7 @@ export const Pricing = () => {
               <li>Tích hợp chatbot / biểu mẫu liên hệ</li>
             </ul>
             <h3 className="pricing-card-price">Từ 2.500.000</h3>
-            <Link to="/contact" className="btn-primary pricing-card-button">
+            <Link to="/dichvu-web" className="btn-primary pricing-card-button">
               Xem chi tiết
             </Link>
           </div>
@@ -78,7 +78,10 @@ export const Pricing = () => {
               <li>Tích hợp API & automation</li>
             </ul>
             <h3 className="pricing-card-price">Từ 20.000.000</h3>
-            <Link to="/contact" className="btn-primary pricing-card-button">
+            <Link
+              to="/dichvu-phanmem"
+              className="btn-primary pricing-card-button"
+            >
               Xem chi tiết
             </Link>
           </div>
@@ -100,7 +103,7 @@ export const Pricing = () => {
               <li>Hỗ trợ pitching / kỹ thuật</li>
             </ul>
             <h3 className="pricing-card-price">Từ 10.000.000</h3>
-            <Link to="/contact" className="btn-primary pricing-card-button">
+            <Link to="/dichvu-mvp" className="btn-primary pricing-card-button">
               Xem chi tiết
             </Link>
           </div>

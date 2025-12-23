@@ -9,6 +9,9 @@ export const PUBLIC_ROUTES = {
   TALENT_HUB: "/talent-hub",
   CONTACT: "/contact",
   STUDENT: "/student",
+  DICHVU_MVP: "/dichvu-mvp",
+  DICHVU_PHANMEM: "/dichvu-phanmem",
+  DICHVU_WEB: "/dichvu-web",
 }
 
 // Admin routes

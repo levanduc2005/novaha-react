@@ -30,7 +30,9 @@ export const AdminLogin = () => {
     setLoading(true)
 
     try {
+      console.log("Logging in with:", { username, password })
       const response = await adminService.login(username, password)
+      console.log("Login response:", response)
 
       if (response.data.ok) {
         localStorage.setItem("adminToken", response.data.token)
@@ -40,6 +42,7 @@ export const AdminLogin = () => {
         setMessage("❌ Sai tài khoản hoặc mật khẩu!")
       }
     } catch (error) {
+      console.error("Login error:", error)
       setMessage("❌ Lỗi kết nối: " + (error.message || "Vui lòng thử lại"))
     } finally {
       setLoading(false)

@@ -10,6 +10,9 @@ import {
   Contact,
   About,
   Recruitment,
+  DichVuMVP,
+  DichVuPhanMem,
+  DichVuWeb,
 } from "./pages/public"
 import Student from "./pages/public/Student"
 import AdminDashboard from "./pages/admin/AdminDashboard"
@@ -35,6 +38,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/recruitment" element={<Recruitment />} />
+
+        {/* Service Routes */}
+        <Route path="/dichvu-mvp" element={<DichVuMVP />} />
+        <Route path="/dichvu-phanmem" element={<DichVuPhanMem />} />
+        <Route path="/dichvu-web" element={<DichVuWeb />} />
 
         {/* Admin Routes */}
         <Route path="/admin-login" element={<AdminLogin />} />

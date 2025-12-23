@@ -16,11 +16,45 @@ export const Header = () => {
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = "hidden"
+      document.body.classList.add("menu-open")
+
+      // Set nav menu top position based on header height
+      const header = document.querySelector(".header")
+      const nav = document.querySelector(".nav.open")
+      if (header && nav) {
+        const headerHeight = header.offsetHeight
+        nav.style.top = headerHeight + "px"
+        document.body.style.setProperty("--header-height", headerHeight + "px")
+      }
+
+      // Add click outside handler
+      const handleClickOutside = (e) => {
+        const nav = document.querySelector(".nav.open")
+        const hamburger = document.querySelector(".hamburger")
+        if (nav && !nav.contains(e.target) && !hamburger.contains(e.target)) {
+          setIsMenuOpen(false)
+        }
+      }
+
+      // Add click on overlay to close
+      const handleOverlayClick = (e) => {
+        const nav = document.querySelector(".nav.open")
+        if (!nav.contains(e.target)) {
+          setIsMenuOpen(false)
+        }
+      }
+
+      document.addEventListener("click", handleClickOutside)
+      return () => {
+        document.removeEventListener("click", handleClickOutside)
+      }
     } else {
       document.body.style.overflow = "auto"
+      document.body.classList.remove("menu-open")
     }
     return () => {
       document.body.style.overflow = "auto"
+      document.body.classList.remove("menu-open")
     }
   }, [isMenuOpen])
 
